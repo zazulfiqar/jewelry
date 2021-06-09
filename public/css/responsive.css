@@ -1,0 +1,245 @@
+/***** Media Queries*****/
+@media only screen and (min-width: 967px) and (max-width: 1200px){
+
+	h2 {font-size: 40px;margin-bottom: 10px;}
+	p {font-size: 14px;line-height: 25px;height: auto;}
+	.webBtn {padding: 11px 20px;font-size: 15px;}
+
+	header .logInSec li i {font-size: 20px;width: 35px;height: 35px;}
+
+	.banner .bannerCntnt h3 {font-size: 50px;}
+	.banner .bannerCntnt h1 {font-size: 70px;}
+	.banner .bannerCntnt h2 {font-size: 60px;}
+	.banner ul.cntntList {top: 100px;left: -140px;}
+	.banner ul.cntntList li {font-size: 23px;}
+	.contactList {bottom: -200px;left: 30px;}
+	.contactList li i {font-size: 30px;padding: 10px 0;}
+	.bannerOverlayImg .bannerImg h2 {line-height: 60px;font-size: 70px;}
+
+	.categorySec h2 {margin-bottom: 30px;}
+	.category h6 {font-size: 20px;}
+	.category h4 {font-size: 20px;}
+	.category img {top: 40px;right: 10px;width: 40%;}
+	.cat-5 img {top: 70px;}
+	.cat-6 img {top: 20px;}
+
+	.aboutSec .aboutCntnt {padding: 0;}
+
+	.exploreSec .exploreCntnt h2 {font-size: 36px;}
+	.exploreSec .exploreCntnt h3 {font-size: 46px;margin-bottom: 15px;}
+
+	.featureSec h2 {margin-bottom: 30px;}
+	.featureSec .pro .proImg {height: 150px;}
+	.featureSec .pro h6 {font-size: 15px;line-height: 20px;height: 40px;padding: 0 5%;}
+	.featureSec .pro p {line-height: 20px;}
+
+	.inspiredSec h2 {margin-bottom: 30px;}
+	.inspired {padding: 0;}
+	.inspired:hover {box-shadow: none;background: transparent;}
+	.inspired .inspiredImg h6 {bottom: -15px;padding: 7px 15px;font-size: 14px;}
+	.inspired h5 {font-size: 17px;}
+	.inspired ul li {font-size: 12px;padding: 0 2px;}
+	.inspired a {font-size: 15px;}
+
+	footer .footerLogo p {font-size: 14px;line-height: 23px;}
+	footer .footerCntnt .socialIcons li {width: 23%;}
+	footer .footerCntnt h6 {font-size: 20px;}
+	footer .footerCntnt ul li {margin-bottom: 15px;}
+	footer .addressSec ul li {padding-left: 25px;position: relative;}
+	footer .addressSec ul li i {position: absolute;top: 3px;left: 0;}
+
+	.bottomRow .flexRow {display: block;}
+	.bottomRow .paymentSec {margin-top: 15px;}
+	.bottomRow .paymentSec li {width: 7%;}
+
+	.innerBanner .bannerOverlay h1 {font-size: 45px;}
+	.contactPg .contactSec {padding: 50px 0;}
+	.contactPg .contactSec .secHead {margin-bottom: 30px;}
+	.contactPg .form-group i {top: 10px;left: 10px;font-size: 17px;}
+	.contactPg .form-control {height: 40px;padding-left: 30px;}
+	.contactPg textarea {padding:7px 7px 7px 35px;}
+	.contactPg .mailingSec i {font-size: 28px!important;width: 60px;height: 60px;padding: 15px 0;left: 5px;top: 10px;}
+	.contactPg .mailingSec li {margin-bottom: 10px;padding: 10px 10px 10px 75px;height: 80px;}
+	.contactPg .mailingSec h6 {font-size: 14px;margin-bottom: 5px;}
+	.contactPg .mailingSec p {font-size: 14px;line-height: 20px;}
+
+	.proDetSec .proDetCntnt h2,.proDetSec .proDetCntnt h3 {font-size: 25px;margin: 0 0 15px 0;}
+	.proDetSec .proDetCntnt p {margin-bottom: 10px;font-size: 14px;line-height: 24px;}
+	.proDetSec .quantitySec button {top: -1px;}
+
+	.cartTable table>tbody>tr>td, .cartTable table>tbody>tr>th {padding: 20px 10px;}
+	.cartTable tr {padding: 0 0 0 5px;}
+	.cartTable td img {width: 50%;}
+	.cartTable td.col-md-6 span {left: 55%;top: 40%;}
+	.cartTable td span h6 {font-size: 13px;margin-bottom: 5px;}
+	.cartTable td span h4 {font-size: 20px;}
+	.cartTable td p {font-size: 13px;line-height: 20px;}
+	.cartTotal {padding: 15px 10px;}
+	.cartTotal ul li {font-size: 14px;margin-bottom: 4px;}
+	.cartTotal ul li h6 {font-size: 20px;}
+	.cartTotal ul li p {margin: 0;font-size: 13px;}
+	.cartTotal li h5 {font-size: 20px;}
+	.paymentMethod button {padding: 7px;font-size: 12px;}
+	.paymentMethod p {font-size: 12px;line-height: 20px;}
+	.paymentMethod a {font-size: 13px;}
+
+	.personalInfo h2 {font-size: 18px;padding: 10px 20px;}
+	.personalInfoCntnt {padding: 20px;}
+	.personalInfoCntnt label {width: 80px;font-size: 14px;}
+	.personalInfoCntnt .form-control {height: 35px;padding: 5px;font-size: 12px;width: 65%;}
+	.personalInfoCntnt .form-group button {padding: 6px 10px;font-size: 12px;height: auto;right: 55px;}
+	.personalInfoCntnt .form-group p {top: 5px;right: -5px;font-size: 12px;}
+	.conditionSec {padding-left: 130px;padding-bottom: 30px;}
+	.conditionSec p {font-size: 14px;line-height: 24px;}
+	.conditionSec button {padding: 12px 50px;font-size: 15px;}
+	.checkoutTotal {background: #b9934d;padding: 15px;margin-bottom: 40px;}
+	.securitySec {padding: 15px;}
+	.securitySec li {padding-left: 30px;font-size: 15px;}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 966px){
+	
+	h2 {font-size: 32px;margin-bottom: 10px;}
+	p {font-size: 13px;line-height: 20px;height: auto;}
+	.webBtn {padding: 10px 15px;font-size: 14px;}
+
+	header .logInSec li i {font-size: 20px;width: 35px;height: 35px;}
+
+	.banner .bannerCntnt h3 {font-size: 35px;}
+	.banner .bannerCntnt h1 {font-size: 45px;}
+	.banner .bannerCntnt h2 {font-size: 45px;}
+	.banner ul.cntntList {top: 70px;left: -80px;}
+	.banner ul.cntntList li {font-size: 16px;}
+	.contactList {bottom: -160px;left: 43px;}
+	.contactList li i {font-size: 20px;padding: 10px 0;}
+	.bannerOverlayImg .bannerImg h2 {line-height: 60px;font-size: 55px;}
+
+	.categorySec h2 {margin-bottom: 30px;}
+	.category h6 {font-size: 20px;}
+	.category h4 {font-size: 20px;}
+	.category img {top: 40px;right: 10px;width: 40%;}
+	.cat-5 img {top: 70px;}
+	.cat-6 img {top: 20px;}
+
+	.aboutSec .aboutCntnt {padding: 0;}
+
+	.exploreSec .exploreCntnt h2 {font-size: 30px;}
+	.exploreSec .exploreCntnt h3 {font-size: 39px;margin-bottom: 15px;}
+
+	.featureSec h2 {margin-bottom: 30px;}
+	.featureSec .pro .proImg {height: 150px;}
+	.featureSec .pro h6 {font-size: 15px;line-height: 20px;height: 40px;padding: 0 5%;}
+	.featureSec .pro p {line-height: 20px;}
+
+	.inspiredSec h2 {margin-bottom: 30px;}
+	.inspired {padding: 0;}
+	.inspired:hover {box-shadow: none;background: transparent;}
+	.inspired .inspiredImg h6 {bottom: -15px;padding: 7px 15px;font-size: 14px;}
+	.inspired h5 {font-size: 17px;}
+	.inspired ul li {font-size: 12px;padding: 0 2px;}
+	.inspired a {font-size: 15px;}
+
+	footer .footerLogo p {font-size: 14px;line-height: 23px;}
+	footer .footerCntnt .socialIcons li {width: 23%;}
+	footer .footerCntnt h6 {font-size: 20px;}
+	footer .footerCntnt ul li {margin-bottom: 15px;}
+	footer .addressSec ul li {padding-left: 25px;position: relative;}
+	footer .addressSec ul li i {position: absolute;top: 3px;left: 0;}
+
+	.bottomRow .flexRow {display: block;}
+	.bottomRow .paymentSec {margin-top: 15px;}
+	.bottomRow .paymentSec li {width: 7%;}
+
+	.innerBanner .bannerOverlay h1 {font-size: 35px;}
+	.contactPg .contactSec {padding: 50px 0;}
+	.contactPg .contactSec .secHead {margin-bottom: 30px;}
+	.contactPg .form-group i {top: 10px;left: 10px;font-size: 17px;}
+	.contactPg .form-control {height: 40px;padding-left: 30px;}
+	.contactPg textarea {padding:7px 7px 7px 35px;}
+	.contactPg .mailingSec i {font-size: 28px!important;width: 60px;height: 60px;padding: 15px 0;left: 5px;top: 10px;}
+	.contactPg .mailingSec li {margin-bottom: 10px;padding: 10px 10px 10px 75px;height: 80px;}
+	.contactPg .mailingSec h6 {font-size: 14px;margin-bottom: 5px;}
+	.contactPg .mailingSec p {font-size: 14px;line-height: 20px;}
+
+	.proDetSec .proDetCntnt h2,.proDetSec .proDetCntnt h3 {font-size: 25px;margin: 0 0 15px 0;}
+	.proDetSec .proDetCntnt p {margin-bottom: 10px;font-size: 13px;line-height: 20px;}
+    .proDetSec .cartBtn a {font-size: 15px;}
+	.proDetSec .quantitySec button {top: -2px;}
+
+	.cartTable table>tbody>tr>td, .cartTable table>tbody>tr>th {padding: 20px 10px;}
+	.cartTable tr {padding: 0 0 0 5px;}
+	.cartTable td img {width: 50%;}
+	.cartTable td.col-md-6 span {left: 55%;top: 40%;}
+	.cartTable td span h6 {font-size: 13px;margin-bottom: 5px;}
+	.cartTable td span h4 {font-size: 20px;}
+	.cartTable td p {font-size: 13px;line-height: 20px;}
+	.cartTotal {padding: 15px 10px;}
+	.cartTotal ul li {font-size: 14px;margin-bottom: 4px;}
+	.cartTotal ul li h6 {font-size: 20px;}
+	.cartTotal ul li p {margin: 0;font-size: 13px;}
+	.cartTotal li h5 {font-size: 20px;}
+	.paymentMethod button {padding: 7px;font-size: 12px;}
+	.paymentMethod p {font-size: 12px;line-height: 20px;}
+	.paymentMethod a {font-size: 13px;}
+
+	.personalInfo h2 {font-size: 18px;padding: 10px 20px;}
+	.personalInfoCntnt {padding: 20px;}
+	.personalInfoCntnt label {width: 80px;font-size: 14px;}
+	.personalInfoCntnt .form-control {height: 35px;padding: 5px;font-size: 12px;width: 65%;}
+	.personalInfoCntnt .form-group button {padding: 6px 10px;font-size: 12px;height: auto;right: 55px;}
+	.personalInfoCntnt .form-group p {top: 5px;right: -5px;font-size: 12px;}
+	.conditionSec {padding-left: 130px;padding-bottom: 30px;}
+	.conditionSec p {font-size: 14px;line-height: 24px;}
+	.conditionSec button {padding: 12px 50px;font-size: 15px;}
+	.checkoutTotal {background: #b9934d;padding: 15px;margin-bottom: 40px;}
+	.securitySec {padding: 15px;}
+	.securitySec li {padding-left: 30px;font-size: 15px;}
+
+	.blogDeSec .rightSec h4 {font-size: 20px;}
+	.blogDeSec .rightSec ul li {margin-bottom: 5px;}
+	.blogDeSec .rightSec ul li a {font-size: 14px;}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	/*.flexRow{display: block;}*/
+	h2 {font-size: 24px;margin-bottom: 10px;}
+	p {font-size: 13px;line-height: 20px;height: auto;}
+	.webBtn {padding: 8px 10px;font-size: 13px;}
+
+	header .logInSec li i {font-size: 20px;width: 35px;height: 35px;}
+
+	.carousel-caption .container {width: 100%;}
+	.banner .bannerCntnt h3 {font-size: 16px;margin-bottom: 5px;}
+	.banner .bannerCntnt h1 {font-size: 24px;margin-bottom: 5px;}
+	.banner .bannerCntnt h2 {font-size: 20px;}
+	.banner ul.cntntList {top: 50px;left: 0px;}
+	.banner ul.cntntList li {font-size: 10px;padding-right: 5px;}
+	.contactList {bottom: -115px;left: 73px;}
+	.contactList li i {font-size: 12px;padding: 5px 0;}
+	.bannerOverlayImg .bannerImg h2 {line-height: 35px;font-size: 35px;}
+
+	.cat-3 img {width: 40%;}
+	.cat-4 img {width: 30%;}
+
+	.aboutSec .flexRow{display: block;}
+	.aboutSec .aboutCntnt {padding: 0;}
+	.aboutSec .aboutImg img {width: 80%;margin: 0 auto 30px;}
+
+	.exploreSec .exploreCntnt h2 {font-size: 24px;}
+    .exploreSec .exploreCntnt h2 span {font-size: 40px;}
+	.exploreSec .exploreCntnt h3 {font-size: 32px;margin-bottom: 15px;}
+
+	.featureSec h2 {margin-bottom: 30px;}
+	.featureSec .pro {border: 1px solid;margin-bottom: 20px;}
+	.featureSec .pro .proImg {height: 100px;}
+	.featureSec .pro .proImg img {height: 90px;}
+	.featureSec .pro h6 {font-size: 15px;line-height: 20px;height: auto;padding: 0 5%;}
+	.featureSec .pro p {line-height: 20px;}
+
+	.inspiredSec h2 {margin-bottom: 30px;}
+	.inspiredSec .inspired {margin-bottom: 20px;}
+	.inspiredSec .inspired .inspiredImg img {width: 100%;}
+
+
+}
+@media only screen and (min-width: 300px) and (max-width: 479px){}
